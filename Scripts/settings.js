@@ -15,7 +15,7 @@
     along with this file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-namespace Settings
+namespace settings
 {
     const var isPlugin = Engine.isPlugin();
 
@@ -128,5 +128,5 @@ namespace Settings
         "WebsiteURL": "https://librewave.com"
     });
     
-    Content.getComponent("fltSettings").setContentData(Settings.tileData);
+    Content.getComponent("fltSettings").setContentData(settings.tileData);
 };
